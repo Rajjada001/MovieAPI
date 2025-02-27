@@ -1,0 +1,19 @@
+/* import quicksand font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
